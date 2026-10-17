@@ -4,6 +4,10 @@
 
 Boyi
 
+## Profile image
+
+Use `assets/avatar.png` (800×800) from the portfolio hub.
+
 ## Profile headline
 
 AI-assisted automation for Excel, PDFs & meeting notes

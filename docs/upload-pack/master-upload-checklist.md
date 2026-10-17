@@ -26,6 +26,12 @@
    - [ ] profile page
    - [ ] profile PDF 下载
 
+## 1.5 Profile images
+
+- [ ] 使用 `assets/avatar.png`（800×800）作为 Fiverr/Contra 头像
+- [ ] 使用 `assets/profile-banner.png`（1600×900）作为 Contra/社交主页横幅
+- [ ] 不要用假照片或假客户 logo；用统一的 BA 品牌图即可
+
 ## 2. Contra
 
 - [ ] Profile headline 用 `contra-profile.md`

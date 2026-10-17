@@ -1,5 +1,10 @@
 # Contra Profile — Boyi Automation
 
+## Profile image / header
+
+- Avatar: `assets/avatar.png` (800×800)
+- Banner: `assets/profile-banner.png` (1600×900)
+
 ## Headline
 
 I build small, auditable automations for messy data, documents, and meetings.

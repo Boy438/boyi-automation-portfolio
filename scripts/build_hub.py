@@ -127,6 +127,17 @@ def og_html() -> str:
     return page("OG Image", body, "body{margin:0}")
 
 
+
+
+def avatar_html() -> str:
+    body = """<div style="box-sizing:border-box;width:800px;height:800px;background:#0B1220;color:#fff;padding:54px;position:relative;overflow:hidden;font-family:'Segoe UI',Arial,sans-serif"><div style="position:absolute;right:-120px;top:-120px;width:520px;height:520px;border-radius:50%;border:1px solid rgba(183,243,74,.3);box-shadow:0 0 0 44px rgba(183,243,74,.05),0 0 0 88px rgba(183,243,74,.035)"></div><div style="font-size:18px;letter-spacing:.16em;text-transform:uppercase;color:#B7F34A;font-weight:800">● BOYI AUTOMATION</div><div style="margin-top:190px;font-size:220px;line-height:.9;letter-spacing:-.08em;font-weight:900">B<span style="color:#B7F34A">A</span></div><div style="font-size:26px;color:#C8D0DD;margin-top:26px">Messy input → clean output.</div><div style="position:absolute;left:54px;bottom:48px;color:#AAB5C4;font-size:16px">Independent demos · synthetic data</div></div>"""
+    return page("Boyi Automation avatar", body, "body{margin:0}")
+
+
+def banner_html() -> str:
+    body = """<div style="box-sizing:border-box;width:1600px;height:900px;background:#0B1220;color:#fff;padding:70px 86px;position:relative;overflow:hidden;font-family:'Segoe UI',Arial,sans-serif"><div style="position:absolute;right:-150px;top:-150px;width:620px;height:620px;border-radius:50%;border:1px solid rgba(183,243,74,.3);box-shadow:0 0 0 50px rgba(183,243,74,.05),0 0 0 100px rgba(183,243,74,.035)"></div><div style="font-size:20px;letter-spacing:.16em;text-transform:uppercase;color:#B7F34A;font-weight:800">● BOYI AUTOMATION</div><div style="font-size:88px;line-height:1.02;letter-spacing:-.055em;font-weight:900;margin-top:70px">Messy input.<br><span style="color:#B7F34A">Clean output.</span></div><div style="font-size:30px;color:#C8D0DD;margin-top:24px;max-width:1200px">AI-assisted automation for spreadsheets, invoices, and meeting notes.</div><div style="display:flex;gap:16px;margin-top:54px"><div style="border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);border-radius:16px;padding:18px 22px;font-size:20px">Excel reporting</div><div style="border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);border-radius:16px;padding:18px 22px;font-size:20px">PDF extraction</div><div style="border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06);border-radius:16px;padding:18px 22px;font-size:20px">Meeting notes + SRT</div></div><div style="position:absolute;left:86px;bottom:56px;color:#AAB5C4;font-size:18px">Independent demos · synthetic data · source included</div></div>"""
+    return page("Boyi Automation banner", body, "body{margin:0}")
+
 def chrome_screenshot(html_path: Path, png_path: Path, width: int, height: int) -> None:
     profile = BUILD / "chrome-profile"
     cmd = [str(CHROME), "--headless=new", "--disable-gpu", "--hide-scrollbars", "--no-sandbox", f"--user-data-dir={profile}", f"--window-size={width},{height}", f"--screenshot={png_path}", html_path.as_uri()]
@@ -147,6 +158,12 @@ def main() -> None:
     og_path = BUILD / "og.html"
     og_path.write_text(og_html(), encoding="utf-8")
     chrome_screenshot(og_path, ASSETS / "og-image.png", 1200, 630)
+    avatar_path = BUILD / "avatar.html"
+    avatar_path.write_text(avatar_html(), encoding="utf-8")
+    chrome_screenshot(avatar_path, ASSETS / "avatar.png", 800, 800)
+    banner_path = BUILD / "banner.html"
+    banner_path.write_text(banner_html(), encoding="utf-8")
+    chrome_screenshot(banner_path, ASSETS / "profile-banner.png", 1600, 900)
     chrome_pdf(print_path, DOCS / "downloads" / "boyi-automation-profile.pdf")
     print("hub built")
 
