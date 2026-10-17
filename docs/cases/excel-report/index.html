@@ -85,7 +85,7 @@ td{padding:6px;border-top:1px solid rgba(255,255,255,.07);color:#E6EAF0}
 .hero-note{font-size:12px;color:#8F9BAD;margin:0}.hero-note b{color:#C8D0DD}
 .hero-media{min-width:0}
 .video-card{position:relative;border-radius:20px;overflow:hidden;border:1px solid rgba(255,255,255,.14);background:#111C2D;box-shadow:0 28px 70px rgba(0,0,0,.32)}
-.video-card video{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.video-card video,.video-card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
 .video-overlay{position:absolute;left:14px;right:14px;bottom:14px;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 12px;border-radius:10px;background:rgba(11,18,32,.78);backdrop-filter:blur(8px);font-size:11px;font-weight:800}
 .video-overlay span{color:var(--lime);text-transform:uppercase;letter-spacing:.08em}.video-overlay a{color:#fff;text-decoration:none;border-bottom:1px solid var(--lime);padding-bottom:1px}
 .media-caption{font-size:12px;color:#AAB5C4;margin:12px 2px 0;line-height:1.55}.media-caption b{color:#fff}
@@ -119,10 +119,8 @@ td{padding:6px;border-top:1px solid rgba(255,255,255,.07);color:#E6EAF0}
   </div>
   <div class="hero-media">
     <div class="video-card">
-      <video autoplay muted loop playsinline poster="assets/gig-01-cover-v2.png" aria-label="Excel cleanup preview">
-        <source src="assets/excel-case-6s-loop.mp4" type="video/mp4">
-      </video>
-      <div class="video-overlay"><span>6-sec preview</span><a href="#proof-video">Watch full case →</a></div>
+      <img src="assets/gig-01-cover-v2.png" alt="Excel cleanup preview">
+      <div class="video-overlay"><span>72-sec film</span><a href="#proof-video">Watch full case →</a></div>
     </div>
     <p class="media-caption"><b>Before:</b> mixed dates, blank prices, duplicate orders. <b>After:</b> clean rows, dashboard, exception log.</p>
   </div>
