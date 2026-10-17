@@ -10,7 +10,7 @@ Use `assets/avatar.png` (800×800) from the portfolio hub.
 
 ## Profile headline
 
-AI-assisted automation for Excel, PDFs & meeting notes
+AI-assisted automation for Excel, PDFs, meetings & file folders
 
 ## Profile description
 
@@ -21,6 +21,7 @@ I build small, fixed-scope automations that turn messy business inputs into clea
 - Clean messy Excel/CSV data and automate a weekly report
 - Extract invoice or PDF data into a clean Excel/CSV file
 - Turn meeting recordings into notes, action items, and subtitles
+- Scan, rename, deduplicate, and safely organize messy folders with Python
 
 **How I work**
 
@@ -33,7 +34,7 @@ I do not promise “100% accuracy” or unlimited revisions. I do promise a tran
 
 ## Skills
 
-Excel, Data Cleaning, Spreadsheet Automation, PDF Conversion, Invoice Extraction, Python, Transcription, Subtitles, SRT, Data Validation, Documentation.
+Excel, Data Cleaning, Spreadsheet Automation, PDF Conversion, Invoice Extraction, Python, File Automation, Folder Organization, Transcription, Subtitles, SRT, Data Validation, Documentation.
 
 ## Languages
 
@@ -45,6 +46,7 @@ Excel, Data Cleaning, Spreadsheet Automation, PDF Conversion, Invoice Extraction
 1. **I will clean messy Excel data and automate your weekly report** — $45 / $120 / $280
 2. **I will extract invoice data from PDF into a clean Excel or CSV file** — $65 / $150 / $320
 3. **I will turn meeting recordings into clear notes, action items, and subtitles** — $45 / $95 / $180
+4. **I will build a Python automation to organize and clean your files** — $75 / $150 / $300
 
 ## Profile FAQ
 
@@ -64,7 +66,7 @@ Yes. The same script can be rerun on the next batch. A recurring package can be 
 
 Hi — thanks for reaching out. To quote accurately, could you send:
 
-1. One representative sample file or recording
+1. One representative sample file, recording, or folder
 2. The exact output you need
 3. Any rules for dates, duplicates, currency, or names
 4. Your deadline

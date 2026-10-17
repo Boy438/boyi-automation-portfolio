@@ -1,0 +1,11 @@
+{
+  "input_dir": "data\\raw\\inbox",
+  "files_scanned": 20,
+  "accepted": 9,
+  "duplicates": 4,
+  "quarantined": 4,
+  "ignored": 3,
+  "audit_events": 11,
+  "bytes_scanned": 8121,
+  "runtime_seconds": 0.0647
+}

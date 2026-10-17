@@ -15,4 +15,6 @@
 | `invoice-contra-project.md` | Invoice Contra project copy |
 | `meeting-fiverr-gig.md` | Meeting Fiverr gig copy |
 | `meeting-contra-project.md` | Meeting Contra project copy |
+| `python-file-automation-fiverr-gig.md` | Python file/folder automation Fiverr gig copy |
+| `python-file-automation-contra-project.md` | Python file/folder automation Contra project copy |
 | `*-上传说明.md` | Chinese upload instructions for each proof pack |

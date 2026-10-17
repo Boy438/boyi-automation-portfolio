@@ -32,6 +32,8 @@ Do not use:
 
 - Start with masked or synthetic samples.
 - Do not request account passwords.
+- Do not delete or move client files without a reviewed plan and written approval.
+- For file workflows, start with a dry run and keep the source folder untouched until the client approves.
 - Do not accept sensitive data before scope and privacy are agreed.
 - Do not process recordings without permission.
 - Do not scrape sites in violation of their terms.

@@ -7,6 +7,7 @@
 | Excel cleanup & reporting | $45 | $120 | $280 |
 | Invoice PDF → Excel/CSV | $65 | $150 | $320 |
 | Meeting notes & SRT | $45 | $95 | $180 |
+| Python file & folder automation | $75 | $150 | $300 |
 
 ## Contra starting prices
 
@@ -15,6 +16,7 @@
 | Excel / CSV Cleanup & Reporting Automation | $120 |
 | PDF Invoice to Excel / CSV Extraction | $150 |
 | Meeting Notes + Action Items | $95 |
+| Python File & Folder Automation | $250 |
 
 ## Rules
 

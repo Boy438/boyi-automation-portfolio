@@ -7,11 +7,11 @@
 
 ## Headline
 
-I build small, auditable automations for messy data, documents, and meetings.
+I build small, auditable automations for messy data, documents, meetings, and file folders.
 
 ## Short bio
 
-I turn messy inputs into clean, usable outputs: spreadsheet reports, validated invoice data, and meeting notes with action items and subtitles.
+I turn messy inputs into clean, usable outputs: spreadsheet reports, validated invoice data, meeting notes with action items and subtitles, and safe file-folder cleanups.
 
 I use AI-assisted tooling to build quickly, then personally review and test every deliverable against a real sample. You get the working files, source code, and an audit trail.
 
@@ -36,6 +36,17 @@ I use AI-assisted tooling to build quickly, then personally review and test ever
 - 3-day delivery
 - 2 revisions
 
+### Python File & Folder Automation — from $250
+
+- 1 folder / 1 naming rule
+- Up to 50 files for the basic audit
+- CSV / JSON / TXT / typed PDF detection
+- SHA-256 duplicate detection + exception log
+- Dry-run report, then safe copy plan
+- Python source + README + test report
+- 3-day delivery
+- 2 revisions
+
 ### Meeting Notes + Action Items — from $95
 
 - Up to 45 minutes of audio
@@ -50,6 +61,7 @@ I use AI-assisted tooling to build quickly, then personally review and test ever
 1. Messy Spreadsheets → One-Click Weekly Report
 2. PDF Invoices → Validated Excel Data
 3. Meeting Audio → Notes, Actions & Bilingual SRT
+4. Messy File Inbox → Clean, Auditable Folder
 
 ## Proposal template
 

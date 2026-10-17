@@ -1,0 +1,12 @@
+source_name,issue,action,severity
+.DS_Store,ignored_system_or_template_file,leave_in_place,info
+broken_export.csv,unexpected_end_of_data,copy_to_quarantine,error
+corrupt.pdf,unsupported_or_unrecognized_type,copy_to_quarantine,error
+empty.csv,empty_file,copy_to_quarantine,error
+logo.png,unsupported_or_unrecognized_type,copy_to_quarantine,error
+README,ignored_system_or_template_file,leave_in_place,info
+~$orders.xlsx,ignored_system_or_template_file,leave_in_place,info
+march statement copy.pdf,duplicate_content,skip_copy,warning
+notes from kickoff 03-05-2026.txt,duplicate_content,skip_copy,warning
+orders 2026_03_07 (1).csv,duplicate_content,skip_copy,warning
+vendor list final (3) copy.csv,duplicate_content,skip_copy,warning

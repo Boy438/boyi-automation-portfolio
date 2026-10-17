@@ -1,0 +1,21 @@
+source_name,status,target_folder,target_name,action
+.DS_Store,ignored,ignored,,skip
+2026-03-08_weekly_notes.txt,accepted,organized,2026-03-08_txt_weekly-notes.txt,copy
+broken_export.csv,quarantined,quarantine,,copy
+corrupt.pdf,quarantined,quarantine,,copy
+customer_export_2026-03-01.json,accepted,organized,2026-03-01_json_customer-export-2026-03-01.json,copy
+customer_export_2026-03-02.json,accepted,organized,2026-03-02_json_customer-export-2026-03-02.json,copy
+empty.csv,quarantined,quarantine,,copy
+export_without_extension,accepted,organized,undated_csv_export-without-extension.csv,copy
+logo.png,quarantined,quarantine,,copy
+march statement copy.pdf,duplicate,duplicates,undated_pdf_march-statement-copy.pdf,copy
+march_statement.pdf,accepted,organized,undated_pdf_march-statement.pdf,copy
+meeting notes 2026-03-05.txt,accepted,organized,2026-03-05_txt_meeting-notes-2026-03-05.txt,copy
+notes from kickoff 03-05-2026.txt,duplicate,duplicates,2026-03-05_txt_notes-from-kickoff-03-05-2026.txt,copy
+orders 2026_03_07 (1).csv,duplicate,duplicates,2026-03-07_csv_orders-2026-03-07-1.csv,copy
+orders 2026_03_07.csv,accepted,organized,2026-03-07_csv_orders-2026-03-07.csv,copy
+README,ignored,ignored,,skip
+supplier_prices.csv,accepted,organized,undated_csv_supplier-prices.csv,copy
+vendor list final (3) copy.csv,duplicate,duplicates,undated_csv_vendor-list-final-3-copy.csv,copy
+VENDOR LIST FINAL (3).CSV,accepted,organized,undated_csv_vendor-list-final-3.csv,copy
+~$orders.xlsx,ignored,ignored,,skip

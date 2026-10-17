@@ -1,11 +1,11 @@
 # Master Upload Checklist — Boyi Automation
 
-> 目标：用一个统一主页 + 三套作品，先把 Contra 和 Fiverr 的 profile 做完整，再开始接单。不要边做边传半成品。
+> 目标：用一个统一主页 + 四套作品，先把 Contra 和 Fiverr 的 profile 做完整，再开始接单。不要边做边传半成品。
 
 ## 0. 本地验收（10 分钟）
 
-- [ ] 打开 `docs/index.html`，确认三张作品卡都能点进 case page
-- [ ] 打开三个 case page，确认图片、音频、下载按钮正常
+- [ ] 打开 `docs/index.html`，确认四张作品卡都能点进 case page
+- [ ] 打开四个 case page，确认图片、音频、文件下载按钮正常
 - [ ] 打开 `docs/profile.html`
 - [ ] 打开 `docs/downloads/boyi-automation-profile.pdf`
 - [ ] 打开 `docs/upload-pack/`，确认 profile copy、Fiverr/Contra 文案齐全
@@ -19,10 +19,11 @@
 5. 等 1–2 分钟，打开：
    `https://<你的用户名>.github.io/boyi-automation-portfolio/`
 6. 检查：
-   - [ ] 主页三张卡
+   - [ ] 主页四张卡
    - [ ] Excel case page
    - [ ] Invoice case page（含 PDF 预览）
    - [ ] Meeting case page（含音频播放器）
+   - [ ] File automation case page（含交互 demo 与样例下载）
    - [ ] profile page
    - [ ] profile PDF 下载
 
@@ -37,38 +38,41 @@
 - [ ] Profile headline 用 `contra-profile.md`
 - [ ] Bio 用 `contra-profile.md` 的 Short bio
 - [ ] 上传头像 / 简洁品牌图（如果平台要求）
-- [ ] 创建 3 个 Projects：
+- [ ] 创建 4 个 Projects：
   - [ ] Messy Spreadsheets → One-Click Weekly Report
   - [ ] PDF Invoices → Validated Excel Data
   - [ ] Meeting Audio → Notes, Actions & Bilingual SRT
+  - [ ] Messy File Inbox → Clean, Auditable Folder
 - [ ] 每个 Project 上传对应 cover、case page 链接、PDF、样例输出
-- [ ] 创建 3 个 Services：
+- [ ] 创建 4 个 Services：
   - [ ] Excel / CSV Cleanup & Reporting Automation — from $120
   - [ ] PDF Invoice to Excel / CSV Extraction — from $150
   - [ ] Meeting Notes + Action Items — from $95
-- [ ] 明确写 `Independent demo — synthetic data/audio`
+  - [ ] Python File & Folder Automation — from $250
+- [ ] 明确写 `Independent demo — synthetic data/audio/files`
 - [ ] 每天投 3 个定制提案，使用 proposal template
 
 ## 3. Fiverr
 
 - [ ] Profile headline 用 `fiverr-profile.md`
 - [ ] Bio 用 `fiverr-profile.md`
-- [ ] 技能填：Excel、Data Cleaning、PDF Conversion、Invoice Extraction、Python、Transcription、Subtitles、SRT、Data Validation
-- [ ] 创建 3 个 Gigs，顺序：
+- [ ] 技能填：Excel、Data Cleaning、PDF Conversion、Invoice Extraction、Python、File Automation、Folder Organization、Transcription、Subtitles、SRT、Data Validation
+- [ ] 创建 4 个 Gigs，顺序：
   - [ ] Excel: $45 / $120 / $280
   - [ ] Invoice: $65 / $150 / $320
   - [ ] Meeting: $45 / $95 / $180
+  - [ ] Python file automation: $75 / $150 / $300
 - [ ] 每个 Gig 上传主图、第二张、第三张、视频
 - [ ] 复制对应 `*-fiverr-gig.md` 的 description、packages、FAQ、buyer requirements
 - [ ] 标签、交付天数、修改次数按文案设置
 - [ ] 不在 Gig 描述里放站外联系方式、收款方式或导流链接
-- [ ] 作品明确标注 Independent demo / synthetic data
+- [ ] 作品明确标注 Independent demo / synthetic data, audio, or files
 
 ## 4. 上线顺序
 
 1. GitHub Pages
-2. Contra profile + 3 projects + 3 services
-3. Fiverr profile + 3 gigs
+2. Contra profile + 4 projects + 4 services
+3. Fiverr profile + 4 gigs
 4. 每天 Contra 3 个提案
 5. 收到 Fiverr brief / order 后先发 4 个澄清问题
 
