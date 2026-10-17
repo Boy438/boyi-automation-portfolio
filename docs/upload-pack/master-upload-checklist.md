@@ -66,6 +66,7 @@
   - [ ] Python file automation: $75 / $150 / $300
 - [ ] 每个 Gig 上传主图、第二张、第三张、72 秒视频
 - [ ] Invoice 视频使用 `invoice-case-72s.mp4`，确认是修正版 32 条完整字幕，不要用旧版 80 秒 demo
+- [ ] Meeting 视频使用 `meeting-case-72s.mp4`，Python 视频使用 `python-case-72s.mp4`；都不要用旧版 80 秒 demo
 - [ ] 不做 30 秒短版和 6 秒静音循环版
 - [ ] 复制对应 `*-fiverr-gig.md` 的 description、packages、FAQ、buyer requirements
 - [ ] 标签、交付天数、修改次数按文案设置

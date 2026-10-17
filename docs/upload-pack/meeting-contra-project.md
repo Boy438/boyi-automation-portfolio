@@ -26,7 +26,7 @@ A meeting recording contains decisions, risks, and next steps, but raw ASR is no
 - Owner, task, due date, due phrase, and source sentence for each action
 - English, Chinese, and bilingual SRT generation
 - Excel workbook with dashboard, meetings, actions, decisions, risks, key points, and transcript segments
-- Self-contained proof page and captioned walkthrough
+- Self-contained proof page and 72-second narrated walkthrough (English voiceover, burned-in captions)
 
 ## Demo results
 
@@ -42,6 +42,10 @@ A meeting recording contains decisions, risks, and next steps, but raw ASR is no
 | Automated tests | 6 / 6 passed |
 
 \* Measured on synthetic ground-truth transcripts. The final notes use the human-corrected transcript.
+
+### Proof video
+
+72-second narrated walkthrough: `https://boy438.github.io/boyi-automation-portfolio/cases/meeting-notes/` — English voiceover, burned-in captions, real waveform and raw ASR, human-corrected notes, 13 owned actions, and English / Chinese / bilingual SRT.
 
 ## What was validated
 

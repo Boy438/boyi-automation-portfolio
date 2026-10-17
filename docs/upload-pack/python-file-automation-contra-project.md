@@ -34,7 +34,11 @@ Send me one representative folder and the naming rule you want. I will confirm f
 | Quarantined | 4 |
 | Ignored system/template files | 3 |
 | Automated tests | 10 / 10 passed |
-| Demo runtime | ~0.06s |
+| Demo runtime | under 0.1s |
+
+### Proof video
+
+72-second narrated walkthrough: `https://boy438.github.io/boyi-automation-portfolio/cases/python-file-automation/` — English voiceover, burned-in captions, real 20-file inbox, SHA-256 duplicate pairs, quarantine reasons, dry-run plan, and audit log.
 
 ## Deliverables
 

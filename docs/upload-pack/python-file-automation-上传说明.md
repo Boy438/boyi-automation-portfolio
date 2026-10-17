@@ -13,7 +13,7 @@
 | Fiverr 第二张 | `docs/cases/python-file-automation/assets/gig-02-before-after.png` |
 | Fiverr 第三张 | `docs/cases/python-file-automation/assets/gig-03-workflow.png` |
 | Contra 封面 | `docs/cases/python-file-automation/assets/contra-cover.png` |
-| 80 秒视频 | `docs/cases/python-file-automation/assets/demo.mp4` |
+| 72 秒旁白视频 | `docs/cases/python-file-automation/assets/python-case-72s.mp4` |
 | 视频预览 GIF | `docs/cases/python-file-automation/assets/demo-preview.gif` |
 | 样例输入 | `docs/cases/python-file-automation/sample/messy_inbox_sample.zip` |
 | Excel 报告 | `docs/cases/python-file-automation/sample/file_inbox_report.xlsx` |
@@ -58,7 +58,7 @@
 
 ### 视频
 
-上传 `demo.mp4`，时长 80 秒，1600×900，H.264。
+上传 `python-case-72s.mp4`，时长 72 秒，1920×1080，H.264，英文旁白 + 硬字幕。
 
 ### 描述 / FAQ / 买家要求
 

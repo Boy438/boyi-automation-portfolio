@@ -38,6 +38,8 @@ Send one short sample recording and the output format you need. I will confirm f
 
 The demo is transparent about raw ASR quality: it measures word error rate, then uses a human-corrected transcript for the final notes. I do not pretend the raw machine transcript is perfect.
 
+A **72-second narrated walkthrough** is included with the case page: English voiceover, burned-in captions, real waveform, raw ASR errors, the human-correction step, action items, notes, and three SRT exports. The demo uses synthetic audio only.
+
 **Good fit**
 
 - Weekly team meetings

@@ -6,7 +6,7 @@
 
 1. `case-study.html`：交互案例页，带音频播放器和转写/行动项对比。
 2. `pdf/case-study.pdf`：4 页英文案例。
-3. `video/demo.mp4`：80 秒英文演示，无配音、有字幕。
+3. `docs/cases/meeting-notes/assets/meeting-case-72s.mp4`：72 秒英文旁白 + 硬字幕，1920×1080。
 4. `images/`：3 张 Fiverr 图 + 1 张 Contra 封面。
 5. `copy/`：Fiverr/Contra 文案、提案模板、上传清单、样例音频、笔记和 SRT。
 
@@ -17,7 +17,7 @@
 2. 主图：`images/gig-01-cover.png`
 3. 第 2 张：`images/gig-02-before-after.png`
 4. 第 3 张：`images/gig-03-workflow.png`
-5. 视频：`video/demo.mp4`
+5. 视频：`docs/cases/meeting-notes/assets/meeting-case-72s.mp4`
 6. 描述复制 `copy/fiverr-gig.md` 的 **Gig description**。
 7. 套餐：**$45 / $95 / $180**；交付 **1 / 2 / 3 天**；修改 **1 / 2 / 3 次**。
 8. 标签：`meeting notes`、`transcription`、`subtitles`、`action items`、`srt`。
@@ -74,7 +74,7 @@
 | `images/gig-02-before-after.png` | Fiverr 第 2 张 |
 | `images/gig-03-workflow.png` | Fiverr 第 3 张 |
 | `images/contra-cover.png` | Contra 封面 |
-| `video/demo.mp4` | Fiverr 视频 / Contra 附件 |
+| `docs/cases/meeting-notes/assets/meeting-case-72s.mp4` | Fiverr 视频 / Contra 附件 |
 | `pdf/case-study.pdf` | 4 页英文案例 |
 | `case-study.html` | 交互案例页 |
 | `copy/fiverr-gig.md` | Fiverr 全量文案 |

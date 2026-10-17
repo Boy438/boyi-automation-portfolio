@@ -36,11 +36,13 @@ You send one representative folder and the naming rule you need. I confirm fit, 
 - Source-to-target organize plan
 - Safe copy output; original folder remains untouched
 - Python source, dependency list, README, and test report
-- Short walkthrough video
+- 72-second narrated walkthrough (English voiceover, burned-in captions)
 
 **How I work**
 
 AI-assisted build, human-reviewed and tested. You get the working files, source code, and a test/exception report. I do not hide bad files: every duplicate, quarantine, and ignored file is logged with a reason.
+
+A **72-second narrated walkthrough** shows the real inbox, the duplicate traps, the bad files, the dry-run copy plan, and the audit log. The demo uses synthetic files only.
 
 **Good fit**
 
