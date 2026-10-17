@@ -4,13 +4,15 @@
 
 ## 0. 本地验收（10 分钟）
 
-- [ ] 打开 `docs/index.html`，确认四张作品卡都能点进 case page
-- [ ] 打开四个 case page，确认图片、音频、文件下载按钮正常
-- [ ] 打开 `docs/profile.html`
-- [ ] 打开 `docs/downloads/boyi-automation-profile.pdf`
-- [ ] 打开 `docs/upload-pack/`，确认 profile copy、Fiverr/Contra 文案齐全
+- [x] 打开 `docs/index.html`，确认四张作品卡都能点进 case page
+- [x] 打开四个 case page，确认图片、音频、文件下载按钮正常
+- [x] 打开 `docs/profile.html`
+- [x] 打开 `docs/downloads/boyi-automation-profile.pdf`
+- [x] 打开 `docs/upload-pack/`，确认 profile copy、Fiverr/Contra 文案齐全
 
-## 1. GitHub Pages（先做这一步）
+## 1. GitHub Pages（已完成）
+
+**线上地址：** https://boy438.github.io/boyi-automation-portfolio/
 
 1. 在 GitHub 新建仓库，例如 `boyi-automation-portfolio`
 2. 把整个 `boyi-automation-portfolio` 目录推上去
@@ -19,13 +21,13 @@
 5. 等 1–2 分钟，打开：
    `https://<你的用户名>.github.io/boyi-automation-portfolio/`
 6. 检查：
-   - [ ] 主页四张卡
-   - [ ] Excel case page
-   - [ ] Invoice case page（含 PDF 预览）
-   - [ ] Meeting case page（含音频播放器）
-   - [ ] File automation case page（含交互 demo 与样例下载）
-   - [ ] profile page
-   - [ ] profile PDF 下载
+   - [x] 主页四张卡
+   - [x] Excel case page
+   - [x] Invoice case page（含 PDF 预览）
+   - [x] Meeting case page（含音频播放器）
+   - [x] File automation case page（含交互 demo 与样例下载）
+   - [x] profile page
+   - [x] profile PDF 下载
 
 ## 1.5 Profile images
 
@@ -70,7 +72,7 @@
 
 ## 4. 上线顺序
 
-1. GitHub Pages
+1. ✅ GitHub Pages 已发布
 2. Contra profile + 4 projects + 4 services
 3. Fiverr profile + 4 gigs
 4. 每天 Contra 3 个提案

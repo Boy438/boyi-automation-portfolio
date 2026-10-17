@@ -30,6 +30,8 @@ scripts/build_hub.py          regenerates the hub pages and profile PDF
 
 ## GitHub Pages
 
+**Live:** https://boy438.github.io/boyi-automation-portfolio/
+
 1. Create a GitHub repository for this folder.
 2. Push the repository.
 3. Settings → Pages → Source: **Deploy from a branch**.
