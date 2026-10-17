@@ -64,7 +64,9 @@
   - [ ] Invoice: $65 / $150 / $320
   - [ ] Meeting: $45 / $95 / $180
   - [ ] Python file automation: $75 / $150 / $300
-- [ ] 每个 Gig 上传主图、第二张、第三张、视频
+- [ ] 每个 Gig 上传主图、第二张、第三张、72 秒视频
+- [ ] Invoice 视频使用 `invoice-case-72s.mp4`，确认是修正版 32 条完整字幕，不要用旧版 80 秒 demo
+- [ ] 不做 30 秒短版和 6 秒静音循环版
 - [ ] 复制对应 `*-fiverr-gig.md` 的 description、packages、FAQ、buyer requirements
 - [ ] 标签、交付天数、修改次数按文案设置
 - [ ] 不在 Gig 描述里放站外联系方式、收款方式或导流链接

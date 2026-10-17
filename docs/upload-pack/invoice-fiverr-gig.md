@@ -33,7 +33,8 @@ Send me 1–3 sample PDFs and the exact columns you need. I will confirm fit, sc
 - Sum of line items vs. subtotal
 - Subtotal + tax vs. total
 - Duplicate invoice numbers
-- Missing required fields
+- Missing PO or other required fields
+- Supported vs. unsupported currency
 - Whether the PDF has a text layer
 
 **What you get**
@@ -42,13 +43,18 @@ Send me 1–3 sample PDFs and the exact columns you need. I will confirm fit, sc
 - Line-item table
 - Row-level exception log
 - Excel workbook with summaries
-- Repeatable source script
+- Repeatable source script (Premium)
 - README with assumptions and limits
-- Short captioned walkthrough
+- Validation/test report
+- 72-second narrated walkthrough
+
+**Demo result**
+
+The synthetic demo processes 48 PDFs: **41 usable invoices** (5 kept with review warnings), **7 files excluded**, and **15 quality events logged**. The video demonstrates the full Standard/Premium validation workflow. Package inclusions below take precedence.
 
 **How I work**
 
-AI-assisted build, human-reviewed and tested. I do not hide bad rows or guess data from image-only PDFs. Every excluded file gets a reason in the exception log.
+AI-assisted build, human-reviewed and tested. Every output is checked against your sample and written field rules. I do not hide bad rows or guess data from image-only PDFs. Every excluded file gets a reason in the exception log.
 
 **Good fit**
 
@@ -65,6 +71,8 @@ AI-assisted build, human-reviewed and tested. I do not hide bad rows or guess da
 - “100% accuracy” promises without a written field spec
 
 ## Packages
+
+Package inclusions vary. The video shows the full validation workflow; the package list below defines the exact deliverables.
 
 ### Basic — $65
 
@@ -89,7 +97,7 @@ AI-assisted build, human-reviewed and tested. I do not hide bad rows or guess da
 - Up to 300 PDFs
 - Custom validation rules
 - Dashboard + exception log + repeatable script
-- README and captioned walkthrough
+- README and 72-second narrated walkthrough
 - 5-day delivery
 - 3 revisions
 - 14-day bug-fix support

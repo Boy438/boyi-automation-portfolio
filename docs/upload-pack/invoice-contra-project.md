@@ -26,7 +26,7 @@ A folder of invoice PDFs is not a spreadsheet. It is a pile of exceptions: scann
 - Currency and missing-field validation
 - Row-level exception log
 - Excel workbook with dashboard, invoices, line items, exceptions, vendor and currency summaries
-- A self-contained proof page and captioned walkthrough
+- A self-contained proof page and 72-second narrated walkthrough
 
 ## Demo results
 
@@ -34,15 +34,15 @@ A folder of invoice PDFs is not a spreadsheet. It is a pile of exceptions: scann
 |---|---:|
 | PDF files | 48 |
 | Text-layer PDFs | 46 |
-| Clean invoices | 41 |
-| Files needing review | 5 |
-| Files excluded | 7 |
+| Usable invoices | 41 |
+| Review warnings | 5 files kept with warning |
+| Excluded files | 7 |
 | Quality events logged | 15 |
-| Header field accuracy* | 100.0% |
-| Line-item field accuracy* | 100.0% |
+| Header fields matched* | 506 / 506 |
+| Line-item fields matched* | 548 / 548 |
 | Automated tests | 8 / 8 passed |
 
-\* Controlled benchmark on the 46 synthetic typed PDFs. Not a claim about every real-world PDF.
+\* Controlled benchmark on the 46 synthetic typed PDFs. Not a guarantee for every real-world PDF. “Usable” includes 5 files kept with review warnings; excluded files are not in the clean output. The 72-second demo video shows the full validation workflow; service inclusions vary as listed below.
 
 ## What was validated
 
@@ -65,7 +65,8 @@ A folder of invoice PDFs is not a spreadsheet. It is a pile of exceptions: scann
 - Excel workbook with summaries and charts
 - Repeatable source script
 - README with assumptions and limits
-- Captioned walkthrough
+- 72-second narrated walkthrough
+- Validation/test report
 - Sample PDFs and outputs
 
 ## Stack
@@ -93,6 +94,8 @@ I built a similar demo: [case page / sample output link]. For your batch, I woul
 The main risk is [scanned pages / multi-page tables / inconsistent labels], so I would validate that before scaling. We can start with a paid pilot on 10–25 PDFs and expand only if the output meets your spec.
 
 ## Service listing
+
+The demo shows the full validation workflow. Service inclusions vary as listed below.
 
 ### PDF Invoice to Excel / CSV Extraction — from $150
 

@@ -1,12 +1,12 @@
 # PDF 发票提取：上传说明
 
-> 这是 2 号作品「PDF 发票 → 结构化 Excel」的完整证明包。所有 PDF 和字段都是合成数据，页面和文案都标注 **Independent demo — synthetic data**，没有编造客户名、logo 或好评。
+> 这是 2 号作品「PDF 发票 → 结构化 Excel」的完整证明包。当前视频为 **72 秒英文旁白 + 硬字幕修正版**。所有 PDF 和字段都是合成数据，页面和文案都标注 **Independent demo — synthetic data**，没有编造客户名、logo 或好评。
 
 ## 一、先看哪里
 
 1. `case-study.html`：交互案例页，可直接给客户看。
 2. `pdf/case-study.pdf`：4 页英文案例。
-3. `video/demo.mp4`：80 秒英文演示，无配音、有字幕。
+3. `docs/cases/invoice-extraction/assets/invoice-case-72s.mp4`：72 秒英文旁白 + 硬字幕；字幕已修正为 32 条完整逐字字幕。
 4. `images/`：3 张 Fiverr 图 + 1 张 Contra 封面。
 5. `copy/`：Fiverr/Contra 文案、提案模板、上传清单、样例 PDF 和输出。
 
@@ -17,7 +17,7 @@
 2. 主图：`images/gig-01-cover.png`
 3. 第 2 张：`images/gig-02-before-after.png`
 4. 第 3 张：`images/gig-03-workflow.png`
-5. 视频：`video/demo.mp4`
+5. 视频：`docs/cases/invoice-extraction/assets/invoice-case-72s.mp4`（不要再用旧版 80 秒 demo）
 6. 描述复制 `copy/fiverr-gig.md` 的 **Gig description**。
 7. 套餐：**$65 / $150 / $320**；交付 **2 / 3 / 5 天**；修改 **1 / 2 / 3 次**。
 8. 标签：`invoice`、`pdf to excel`、`data extraction`、`excel`、`data entry`。
@@ -73,7 +73,7 @@
 | `images/gig-02-before-after.png` | Fiverr 第 2 张 |
 | `images/gig-03-workflow.png` | Fiverr 第 3 张 |
 | `images/contra-cover.png` | Contra 封面 |
-| `video/demo.mp4` | Fiverr 视频 / Contra 附件 |
+| `docs/cases/invoice-extraction/assets/invoice-case-72s.mp4` | Fiverr 视频 / Contra 附件（72 秒、英文旁白、修正版字幕） |
 | `pdf/case-study.pdf` | 4 页英文案例 |
 | `case-study.html` | 交互案例页 |
 | `copy/fiverr-gig.md` | Fiverr 全量文案 |
