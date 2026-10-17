@@ -13,13 +13,13 @@
 ## 二、Fiverr 怎么上传
 
 1. 新建 gig，标题：
-   `I will turn meeting recordings into clear notes, action items, and subtitles`
+   `I will turn meeting recordings into reviewed notes, action items, and SRT`
 2. 主图：`images/gig-01-cover.png`
 3. 第 2 张：`images/gig-02-before-after.png`
 4. 第 3 张：`images/gig-03-workflow.png`
 5. 视频：`docs/cases/meeting-notes/assets/meeting-case-72s.mp4`
 6. 描述复制 `copy/fiverr-gig.md` 的 **Gig description**。
-7. 套餐：**$45 / $95 / $180**；交付 **1 / 2 / 3 天**；修改 **1 / 2 / 3 次**。
+7. 套餐：**$65 / $150 / $280**；交付 **2 / 3 / 4 天**；修改 **1 / 2 / 3 次**。先收 2–5 分钟样本，再确认接不接。
 8. 标签：`meeting notes`、`transcription`、`subtitles`、`action items`、`srt`。
 9. Portfolio 放 `pdf/case-study.pdf`、`copy/action_items.csv`、`copy/notes/`、`copy/srt/`、`copy/audio/`、`copy/meeting_notes_report.xlsx`。
 10. Fiverr 描述里不要放站外联系方式、收款方式或导流链接。
@@ -34,7 +34,7 @@
 5. 附上 GitHub 仓库、样例 MP3、笔记、SRT 和 Excel。
 6. 明确写：`Independent demo — synthetic audio`。
 7. 新建 Service：
-   `Meeting Notes + Action Items — from $95`
+   `Meeting Notes + Action Items — from $150`
 8. 每天投 3 个定制提案，模板在 `copy/contra-project.md` 的 **Proposal template**。
 9. 提案必须引用对方的具体需求，并附一个相关作品链接。
 

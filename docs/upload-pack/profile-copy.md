@@ -6,7 +6,7 @@ AI-assisted automation for messy data, documents, meetings, and file folders. Fi
 
 ## One-line positioning
 
-**Messy input → clean output, without the manual work.**
+**Messy input → clean output. AI-assisted, human-reviewed, source included.**
 
 ## Short bio
 
@@ -33,7 +33,7 @@ I am based in Asia/Shanghai and work async. I do not require account passwords f
 |---|---:|---:|---|
 | Spreadsheet cleanup & reporting | $45 | $120 | Clean workbook, dashboard, exception log, repeatable script |
 | PDF invoice → Excel/CSV | $65 | $150 | Invoice table, line items, math checks, exception log |
-| Meeting notes & action items | $45 | $95 | Summary, decisions, risks, actions, English/Chinese/bilingual SRT |
+| Meeting notes & action items (sample first) | $65 | $150 | Reviewed notes, decisions/risks, actions, SRT (not certified) |
 | Python file & folder automation | $75 | $250 | Manifest, exceptions, safe copy plan, normalized names, source + README |
 
 ## Skills

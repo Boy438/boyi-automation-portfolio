@@ -49,7 +49,7 @@
 - [ ] 创建 4 个 Services：
   - [ ] Excel / CSV Cleanup & Reporting Automation — from $120
   - [ ] PDF Invoice to Excel / CSV Extraction — from $150
-  - [ ] Meeting Notes + Action Items — from $95
+  - [ ] Meeting Notes + Action Items — from $150
   - [ ] Python File & Folder Automation — from $250
 - [ ] 明确写 `Independent demo — synthetic data/audio/files`
 - [ ] 每天投 3 个定制提案，使用 proposal template
@@ -62,7 +62,7 @@
 - [ ] 创建 4 个 Gigs，顺序：
   - [ ] Excel: $45 / $120 / $280
   - [ ] Invoice: $65 / $150 / $320
-  - [ ] Meeting: $45 / $95 / $180
+  - [ ] Meeting: $65 / $150 / $280（先收 2–5 分钟样本）
   - [ ] Python file automation: $75 / $150 / $300
 - [ ] 每个 Gig 上传主图、第二张、第三张、72 秒视频
 - [ ] Invoice 视频使用 `invoice-case-72s.mp4`，确认是修正版 32 条完整字幕，不要用旧版 80 秒 demo

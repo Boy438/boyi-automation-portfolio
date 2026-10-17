@@ -47,7 +47,7 @@ I use AI-assisted tooling to build quickly, then personally review and test ever
 - 3-day delivery
 - 2 revisions
 
-### Meeting Notes + Action Items — from $95
+### Meeting Notes + Action Items — from $150
 
 - Up to 45 minutes of audio
 - Summary, key points, decisions, risks, action items
