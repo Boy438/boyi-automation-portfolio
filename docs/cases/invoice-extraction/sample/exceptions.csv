@@ -1,0 +1,16 @@
+file,invoice_number,field,issue,action,value,severity
+invoice-009.pdf,INV-2026-1009,invoice_date,ambiguous_date_assumed_month_day,date parsed as month/day/year; review if source uses day/month/year,07/03/2026,warning
+invoice-009.pdf,INV-2026-1009,due_date,ambiguous_date_assumed_month_day,date parsed as month/day/year; review if source uses day/month/year,08/02/2026,warning
+invoice-018.pdf,INV-2026-1018,invoice_date,ambiguous_date_assumed_month_day,date parsed as month/day/year; review if source uses day/month/year,09/04/2026,warning
+invoice-018.pdf,INV-2026-1018,due_date,ambiguous_date_assumed_month_day,date parsed as month/day/year; review if source uses day/month/year,10/04/2026,warning
+invoice-037.pdf,,pdf,no_text_layer,manual OCR or resubmission required; file excluded,,error
+invoice-039.pdf,INV-2026-1039,vendor,missing_vendor,file excluded,,error
+invoice-040.pdf,INV-2026-1040,po_number,missing_po_number,kept with warning,,warning
+invoice-041.pdf,INV-2026-1041,po_number,missing_po_number,kept with warning,,warning
+invoice-042.pdf,INV-2026-1042,total,total_mismatch,file excluded,subtotal+tax 483.84 vs total 496.18,error
+invoice-043.pdf,INV-2026-1043,line_amount,line_amount_mismatch,file excluded,Photo retouching variance 5.00,error
+invoice-044.pdf,INV-2026-1005,invoice_number,duplicate_invoice_number,duplicate file excluded; first occurrence kept,invoice-005.pdf,error
+invoice-045.pdf,INV-2026-1045,invoice_date,ambiguous_date_assumed_month_day,date parsed as month/day/year; review if source uses day/month/year,05/06/2026,warning
+invoice-045.pdf,INV-2026-1045,due_date,ambiguous_date_assumed_month_day,date parsed as month/day/year; review if source uses day/month/year,06/05/2026,warning
+invoice-046.pdf,INV-2026-1046,currency,unsupported_currency,file excluded,CHF,error
+invoice-047.pdf,,pdf,no_text_layer,manual OCR or resubmission required; file excluded,,error

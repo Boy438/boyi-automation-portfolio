@@ -1,0 +1,11 @@
+# Local build and Chrome profiles
+build/
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db

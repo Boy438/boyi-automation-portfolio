@@ -1,0 +1,4 @@
+id,title,date,duration_seconds,participants,action_count,decision_count,risk_count,key_point_count,average_wer
+meeting-01,Weekly Product Sync,2026-10-12,102.6,"Ava, Noah, Mia, Liam, Emma",5,1,1,2,0.2022
+meeting-02,Client Onboarding Call,2026-10-14,78.8,"Liam, Emma, Lucas, Ava",4,1,1,1,0.2074
+meeting-03,Operations Review,2026-10-16,80.5,"Lucas, Ava, Noah, Mia",4,1,1,1,0.1765

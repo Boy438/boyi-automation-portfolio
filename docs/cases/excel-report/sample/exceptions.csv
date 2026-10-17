@@ -1,0 +1,79 @@
+row_number,order_id,field,value,issue,action,severity
+8,ORD-10007,order_date,not-a-date,invalid_date,row excluded,error
+20,ORD-10019,quantity,,invalid_quantity,row excluded,error
+30,ORD-10029,unit_price,,invalid_price,row excluded,error
+44,ORD-10043,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+48,ORD-10047,quantity,-2,invalid_quantity,row excluded,error
+62,ORD-10061,unit_price,price on request,invalid_price,row excluded,error
+74,ORD-10073,discount_pct,150%,discount_above_100_percent,row excluded,error
+87,ORD-10086,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+92,ORD-10091,discount_pct,n/a,invalid_discount,row excluded,error
+102,ORD-10101,customer_id,C999,unknown_customer_id,row excluded,error
+112,ORD-10111,order_date,not-a-date,invalid_date,row excluded,error
+130,ORD-10129,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+132,ORD-10131,sku,SKU-9999,unknown_sku,row excluded,error
+173,ORD-10172,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+193,ORD-10192,email,bad-email-178,invalid_customer_email,kept order; email left blank,warning
+216,ORD-10215,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+218,ORD-10217,email,bad-email-89,invalid_customer_email,kept order; email left blank,warning
+220,ORD-10219,quantity,,invalid_quantity,row excluded,error
+259,ORD-10258,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+301,ORD-10300,email,bad-email-178,invalid_customer_email,kept order; email left blank,warning
+302,ORD-10301,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+302,ORD-10301,customer_id,C999,unknown_customer_id,row excluded,error
+308,ORD-10307,order_date,not-a-date,invalid_date,row excluded,error
+330,ORD-10329,unit_price,,invalid_price,row excluded,error
+345,ORD-10344,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+388,ORD-10387,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+431,ORD-10430,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+448,ORD-10447,quantity,-2,invalid_quantity,row excluded,error
+462,ORD-10461,unit_price,price on request,invalid_price,row excluded,error
+474,ORD-10473,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+510,ORD-10509,order_date,not-a-date,invalid_date,row excluded,error
+517,ORD-10516,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+532,ORD-10531,sku,SKU-9999,unknown_sku,row excluded,error
+560,ORD-10559,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+574,ORD-10573,discount_pct,150%,discount_above_100_percent,row excluded,error
+592,ORD-10591,discount_pct,n/a,invalid_discount,row excluded,error
+603,ORD-10602,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+620,ORD-10619,quantity,,invalid_quantity,row excluded,error
+638,ORD-10637,email,bad-email-178,invalid_customer_email,kept order; email left blank,warning
+646,ORD-10645,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+680,ORD-10679,email,bad-email-89,invalid_customer_email,kept order; email left blank,warning
+689,ORD-10688,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+689,ORD-10688,email,bad-email-178,invalid_customer_email,kept order; email left blank,warning
+702,ORD-10701,customer_id,C999,unknown_customer_id,row excluded,error
+730,ORD-10729,unit_price,,invalid_price,row excluded,error
+732,ORD-10731,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+775,ORD-10774,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+782,ORD-10781,email,bad-email-89,invalid_customer_email,kept order; email left blank,warning
+812,ORD-10811,order_date,not-a-date,invalid_date,row excluded,error
+818,ORD-10817,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+823,ORD-10822,email,bad-email-178,invalid_customer_email,kept order; email left blank,warning
+834,ORD-10833,email,bad-email-178,invalid_customer_email,kept order; email left blank,warning
+848,ORD-10847,quantity,-2,invalid_quantity,row excluded,error
+861,ORD-10860,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+862,ORD-10861,unit_price,price on request,invalid_price,row excluded,error
+904,ORD-10903,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+932,ORD-10931,sku,SKU-9999,unknown_sku,row excluded,error
+947,ORD-10946,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+974,ORD-10973,discount_pct,150%,discount_above_100_percent,row excluded,error
+990,ORD-10989,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+992,ORD-10991,discount_pct,n/a,invalid_discount,row excluded,error
+1008,ORD-11007,order_date,not-a-date,invalid_date,row excluded,error
+1020,ORD-11019,quantity,,invalid_quantity,row excluded,error
+1033,ORD-11032,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+1063,ORD-11062,email,bad-email-178,invalid_customer_email,kept order; email left blank,warning
+1076,ORD-11075,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+1102,ORD-11101,customer_id,C999,unknown_customer_id,row excluded,error
+1119,ORD-11118,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+1130,ORD-11129,unit_price,,invalid_price,row excluded,error
+1147,ORD-11146,email,bad-email-89,invalid_customer_email,kept order; email left blank,warning
+1148,ORD-11147,quantity,-2,invalid_quantity,row excluded,error
+1162,ORD-11161,discount_pct,,missing_discount_defaulted_to_0,defaulted to 0%,warning
+1202,ORD-10014,order_id,ORD-10014,duplicate_order_id,duplicate row excluded; first occurrence kept,error
+1203,ORD-10214,order_id,ORD-10214,duplicate_order_id,duplicate row excluded; first occurrence kept,error
+1204,ORD-10414,order_id,ORD-10414,duplicate_order_id,duplicate row excluded; first occurrence kept,error
+1205,ORD-10614,order_id,ORD-10614,duplicate_order_id,duplicate row excluded; first occurrence kept,error
+1206,ORD-10814,order_id,ORD-10814,duplicate_order_id,duplicate row excluded; first occurrence kept,error
+1207,ORD-11014,order_id,ORD-11014,duplicate_order_id,duplicate row excluded; first occurrence kept,error

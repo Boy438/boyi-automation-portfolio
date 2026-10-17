@@ -1,0 +1,22 @@
+{
+  "pdf_count": 48,
+  "text_layer_count": 46,
+  "scanned_count": 2,
+  "clean_count": 41,
+  "review_count": 5,
+  "excluded_count": 7,
+  "exception_count": 15,
+  "warning_count": 8,
+  "total_amount": "50465.35",
+  "runtime_seconds": 1.239,
+  "exception_breakdown": {
+    "ambiguous_date_assumed_month_day": 6,
+    "missing_po_number": 2,
+    "no_text_layer": 2,
+    "duplicate_invoice_number": 1,
+    "line_amount_mismatch": 1,
+    "missing_vendor": 1,
+    "total_mismatch": 1,
+    "unsupported_currency": 1
+  }
+}

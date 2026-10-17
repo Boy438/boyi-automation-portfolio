@@ -1,0 +1,124 @@
+file,invoice_number,vendor,description,quantity,unit_price,amount,calculated_amount,variance
+invoice-001.pdf,INV-2026-1001,Lumen Studio,Monitor stand,3,38.91,116.73,116.73,0.00
+invoice-001.pdf,INV-2026-1001,Lumen Studio,Brand design retainer,3,850.00,2550.00,2550.00,0.00
+invoice-001.pdf,INV-2026-1001,Lumen Studio,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-002.pdf,INV-2026-1002,Atlas Components,Brand design retainer,3,850.00,2550.00,2550.00,0.00
+invoice-002.pdf,INV-2026-1002,Atlas Components,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-002.pdf,INV-2026-1002,Atlas Components,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-002.pdf,INV-2026-1002,Atlas Components,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-003.pdf,INV-2026-1003,Cedar & Co.,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-003.pdf,INV-2026-1003,Cedar & Co.,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-004.pdf,INV-2026-1004,Nova Printworks,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-004.pdf,INV-2026-1004,Nova Printworks,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-004.pdf,INV-2026-1004,Nova Printworks,Software license,1,236.40,236.40,236.40,0.00
+invoice-005.pdf,INV-2026-1005,Harbor Logistics,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-005.pdf,INV-2026-1005,Harbor Logistics,Software license,1,236.40,236.40,236.40,0.00
+invoice-005.pdf,INV-2026-1005,Harbor Logistics,Monthly support plan,2,180.00,360.00,360.00,0.00
+invoice-005.pdf,INV-2026-1005,Harbor Logistics,Printed brochure,252,0.85,214.20,214.20,0.00
+invoice-006.pdf,INV-2026-1006,Mintline Design,Software license,1,236.40,236.40,236.40,0.00
+invoice-006.pdf,INV-2026-1006,Mintline Design,Monthly support plan,2,180.00,360.00,360.00,0.00
+invoice-007.pdf,INV-2026-1007,Pioneer Tools,Monthly support plan,2,180.00,360.00,360.00,0.00
+invoice-007.pdf,INV-2026-1007,Pioneer Tools,Printed brochure,252,0.85,214.20,214.20,0.00
+invoice-007.pdf,INV-2026-1007,Pioneer Tools,Label rolls,20,3.86,77.20,77.20,0.00
+invoice-008.pdf,INV-2026-1008,Bluepeak Software,Printed brochure,252,0.85,214.20,214.20,0.00
+invoice-008.pdf,INV-2026-1008,Bluepeak Software,Label rolls,20,3.86,77.20,77.20,0.00
+invoice-008.pdf,INV-2026-1008,Bluepeak Software,Warehouse handling,2,116.40,232.80,232.80,0.00
+invoice-008.pdf,INV-2026-1008,Bluepeak Software,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-009.pdf,INV-2026-1009,Evergreen Packaging,Label rolls,20,3.86,77.20,77.20,0.00
+invoice-009.pdf,INV-2026-1009,Evergreen Packaging,Warehouse handling,2,116.40,232.80,232.80,0.00
+invoice-010.pdf,INV-2026-1010,Northstar Office Supply,Warehouse handling,2,116.40,232.80,232.80,0.00
+invoice-010.pdf,INV-2026-1010,Northstar Office Supply,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-010.pdf,INV-2026-1010,Northstar Office Supply,Custom insert,500,0.22,110.00,110.00,0.00
+invoice-011.pdf,INV-2026-1011,Lumen Studio,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-011.pdf,INV-2026-1011,Lumen Studio,Custom insert,500,0.22,110.00,110.00,0.00
+invoice-011.pdf,INV-2026-1011,Lumen Studio,Photo retouching,5,65.97,329.85,329.85,0.00
+invoice-011.pdf,INV-2026-1011,Lumen Studio,Analytics setup,3,329.60,988.80,988.80,0.00
+invoice-012.pdf,INV-2026-1012,Atlas Components,Custom insert,500,0.22,110.00,110.00,0.00
+invoice-012.pdf,INV-2026-1012,Atlas Components,Photo retouching,5,65.97,329.85,329.85,0.00
+invoice-013.pdf,INV-2026-1013,Cedar & Co.,Photo retouching,5,65.97,329.85,329.85,0.00
+invoice-013.pdf,INV-2026-1013,Cedar & Co.,Analytics setup,3,329.60,988.80,988.80,0.00
+invoice-013.pdf,INV-2026-1013,Cedar & Co.,USB-C hub,1,57.23,57.23,57.23,0.00
+invoice-014.pdf,INV-2026-1014,Nova Printworks,Analytics setup,3,329.60,988.80,988.80,0.00
+invoice-014.pdf,INV-2026-1014,Nova Printworks,USB-C hub,1,57.23,57.23,57.23,0.00
+invoice-014.pdf,INV-2026-1014,Nova Printworks,Monitor stand,3,38.91,116.73,116.73,0.00
+invoice-014.pdf,INV-2026-1014,Nova Printworks,Brand design retainer,3,850.00,2550.00,2550.00,0.00
+invoice-015.pdf,INV-2026-1015,Harbor Logistics,USB-C hub,1,57.23,57.23,57.23,0.00
+invoice-015.pdf,INV-2026-1015,Harbor Logistics,Monitor stand,3,38.91,116.73,116.73,0.00
+invoice-016.pdf,INV-2026-1016,Mintline Design,Monitor stand,3,38.91,116.73,116.73,0.00
+invoice-016.pdf,INV-2026-1016,Mintline Design,Brand design retainer,3,850.00,2550.00,2550.00,0.00
+invoice-016.pdf,INV-2026-1016,Mintline Design,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-017.pdf,INV-2026-1017,Pioneer Tools,Brand design retainer,3,850.00,2550.00,2550.00,0.00
+invoice-017.pdf,INV-2026-1017,Pioneer Tools,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-017.pdf,INV-2026-1017,Pioneer Tools,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-017.pdf,INV-2026-1017,Pioneer Tools,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-018.pdf,INV-2026-1018,Bluepeak Software,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-018.pdf,INV-2026-1018,Bluepeak Software,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-019.pdf,INV-2026-1019,Evergreen Packaging,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-019.pdf,INV-2026-1019,Evergreen Packaging,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-019.pdf,INV-2026-1019,Evergreen Packaging,Software license,1,236.40,236.40,236.40,0.00
+invoice-020.pdf,INV-2026-1020,Northstar Office Supply,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-020.pdf,INV-2026-1020,Northstar Office Supply,Software license,1,236.40,236.40,236.40,0.00
+invoice-020.pdf,INV-2026-1020,Northstar Office Supply,Monthly support plan,2,180.00,360.00,360.00,0.00
+invoice-020.pdf,INV-2026-1020,Northstar Office Supply,Printed brochure,252,0.85,214.20,214.20,0.00
+invoice-021.pdf,INV-2026-1021,Lumen Studio,Software license,1,236.40,236.40,236.40,0.00
+invoice-021.pdf,INV-2026-1021,Lumen Studio,Monthly support plan,2,180.00,360.00,360.00,0.00
+invoice-022.pdf,INV-2026-1022,Atlas Components,Monthly support plan,2,180.00,360.00,360.00,0.00
+invoice-022.pdf,INV-2026-1022,Atlas Components,Printed brochure,252,0.85,214.20,214.20,0.00
+invoice-022.pdf,INV-2026-1022,Atlas Components,Label rolls,20,3.86,77.20,77.20,0.00
+invoice-023.pdf,INV-2026-1023,Cedar & Co.,Printed brochure,252,0.85,214.20,214.20,0.00
+invoice-023.pdf,INV-2026-1023,Cedar & Co.,Label rolls,20,3.86,77.20,77.20,0.00
+invoice-023.pdf,INV-2026-1023,Cedar & Co.,Warehouse handling,2,116.40,232.80,232.80,0.00
+invoice-023.pdf,INV-2026-1023,Cedar & Co.,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-024.pdf,INV-2026-1024,Nova Printworks,Label rolls,20,3.86,77.20,77.20,0.00
+invoice-024.pdf,INV-2026-1024,Nova Printworks,Warehouse handling,2,116.40,232.80,232.80,0.00
+invoice-025.pdf,INV-2026-1025,Harbor Logistics,Warehouse handling,2,116.40,232.80,232.80,0.00
+invoice-025.pdf,INV-2026-1025,Harbor Logistics,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-025.pdf,INV-2026-1025,Harbor Logistics,Custom insert,500,0.22,110.00,110.00,0.00
+invoice-026.pdf,INV-2026-1026,Mintline Design,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-026.pdf,INV-2026-1026,Mintline Design,Custom insert,500,0.22,110.00,110.00,0.00
+invoice-026.pdf,INV-2026-1026,Mintline Design,Photo retouching,5,65.97,329.85,329.85,0.00
+invoice-026.pdf,INV-2026-1026,Mintline Design,Analytics setup,3,329.60,988.80,988.80,0.00
+invoice-027.pdf,INV-2026-1027,Pioneer Tools,Custom insert,500,0.22,110.00,110.00,0.00
+invoice-027.pdf,INV-2026-1027,Pioneer Tools,Photo retouching,5,65.97,329.85,329.85,0.00
+invoice-028.pdf,INV-2026-1028,Bluepeak Software,Photo retouching,5,65.97,329.85,329.85,0.00
+invoice-028.pdf,INV-2026-1028,Bluepeak Software,Analytics setup,3,329.60,988.80,988.80,0.00
+invoice-028.pdf,INV-2026-1028,Bluepeak Software,USB-C hub,1,57.23,57.23,57.23,0.00
+invoice-029.pdf,INV-2026-1029,Evergreen Packaging,Analytics setup,3,329.60,988.80,988.80,0.00
+invoice-029.pdf,INV-2026-1029,Evergreen Packaging,USB-C hub,1,57.23,57.23,57.23,0.00
+invoice-029.pdf,INV-2026-1029,Evergreen Packaging,Monitor stand,3,38.91,116.73,116.73,0.00
+invoice-029.pdf,INV-2026-1029,Evergreen Packaging,Brand design retainer,3,850.00,2550.00,2550.00,0.00
+invoice-030.pdf,INV-2026-1030,Northstar Office Supply,USB-C hub,1,57.23,57.23,57.23,0.00
+invoice-030.pdf,INV-2026-1030,Northstar Office Supply,Monitor stand,3,38.91,116.73,116.73,0.00
+invoice-031.pdf,INV-2026-1031,Lumen Studio,Monitor stand,3,38.91,116.73,116.73,0.00
+invoice-031.pdf,INV-2026-1031,Lumen Studio,Brand design retainer,3,850.00,2550.00,2550.00,0.00
+invoice-031.pdf,INV-2026-1031,Lumen Studio,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-032.pdf,INV-2026-1032,Atlas Components,Brand design retainer,3,850.00,2550.00,2550.00,0.00
+invoice-032.pdf,INV-2026-1032,Atlas Components,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-032.pdf,INV-2026-1032,Atlas Components,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-032.pdf,INV-2026-1032,Atlas Components,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-033.pdf,INV-2026-1033,Cedar & Co.,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-033.pdf,INV-2026-1033,Cedar & Co.,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-034.pdf,INV-2026-1034,Nova Printworks,Specialty paper,26,4.94,128.44,128.44,0.00
+invoice-034.pdf,INV-2026-1034,Nova Printworks,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-034.pdf,INV-2026-1034,Nova Printworks,Software license,1,236.40,236.40,236.40,0.00
+invoice-035.pdf,INV-2026-1035,Harbor Logistics,Shipping and handling,3,43.65,130.95,130.95,0.00
+invoice-035.pdf,INV-2026-1035,Harbor Logistics,Software license,1,236.40,236.40,236.40,0.00
+invoice-035.pdf,INV-2026-1035,Harbor Logistics,Monthly support plan,2,180.00,360.00,360.00,0.00
+invoice-035.pdf,INV-2026-1035,Harbor Logistics,Printed brochure,252,0.85,214.20,214.20,0.00
+invoice-036.pdf,INV-2026-1036,Mintline Design,Software license,1,236.40,236.40,236.40,0.00
+invoice-036.pdf,INV-2026-1036,Mintline Design,Monthly support plan,2,180.00,360.00,360.00,0.00
+invoice-038.pdf,INV-2026-1038,Bluepeak Software,Printed brochure,252,0.85,214.20,214.20,0.00
+invoice-038.pdf,INV-2026-1038,Bluepeak Software,Label rolls,20,3.86,77.20,77.20,0.00
+invoice-038.pdf,INV-2026-1038,Bluepeak Software,Warehouse handling,2,116.40,232.80,232.80,0.00
+invoice-038.pdf,INV-2026-1038,Bluepeak Software,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-040.pdf,INV-2026-1040,Northstar Office Supply,Warehouse handling,2,116.40,232.80,232.80,0.00
+invoice-040.pdf,INV-2026-1040,Northstar Office Supply,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-040.pdf,INV-2026-1040,Northstar Office Supply,Custom insert,500,0.22,110.00,110.00,0.00
+invoice-041.pdf,INV-2026-1041,Lumen Studio,Dock processing fee,3,64.03,192.09,192.09,0.00
+invoice-041.pdf,INV-2026-1041,Lumen Studio,Custom insert,500,0.22,110.00,110.00,0.00
+invoice-041.pdf,INV-2026-1041,Lumen Studio,Photo retouching,5,65.97,329.85,329.85,0.00
+invoice-041.pdf,INV-2026-1041,Lumen Studio,Analytics setup,3,329.60,988.80,988.80,0.00
+invoice-045.pdf,INV-2026-1045,Harbor Logistics,USB-C hub,1,57.23,57.23,57.23,0.00
+invoice-045.pdf,INV-2026-1045,Harbor Logistics,Monitor stand,3,38.91,116.73,116.73,0.00
+invoice-048.pdf,INV-2026-1048,Bluepeak Software,Packaging boxes,100,1.26,126.00,126.00,0.00
+invoice-048.pdf,INV-2026-1048,Bluepeak Software,Specialty paper,26,4.94,128.44,128.44,0.00

@@ -1,0 +1,4 @@
+meeting_id,meeting_title,meeting_date,decision,source_sentence
+meeting-01,Weekly Product Sync,2026-10-12,we will delay the public beta by one week to finish the payment integration.,"Decision: we will delay the public beta by one week to finish the payment integration. Risk: the vendor may miss the new deadline, so we need a fallback plan."
+meeting-02,Client Onboarding Call,2026-10-14,we will start with a pilot of two teams instead of the full company.,Decision: we will start with a pilot of two teams instead of the full company.
+meeting-03,Operations Review,2026-10-16,we will move the invoice process to the new template starting next month.,The new invoice template is ready. Decision: we will move the invoice process to the new template starting next month.

@@ -1,0 +1,14 @@
+meeting_id,meeting_title,meeting_date,owner,speaker,task,due_date,due_phrase,source_sentence
+meeting-01,Weekly Product Sync,2026-10-12,Noah,Noah,update the pricing sheet,2026-10-14,by Wednesday,I checked the pricing sheet yesterday. The annual plan is missing two regional prices. Action item: Noah will update the pricing sheet by Wednesday.
+meeting-01,Weekly Product Sync,2026-10-12,Liam,Liam,send the revised launch deck,2026-10-16,by Friday,The revised launch deck is ready for review. Action item: Liam will send the revised launch deck by Friday.
+meeting-01,Weekly Product Sync,2026-10-12,Emma,Emma,book the customer interview,2026-10-20,for next Tuesday,I can book the customer interview. Action item: Emma will book the customer interview for next Tuesday.
+meeting-01,Weekly Product Sync,2026-10-12,Noah,Noah,prepare the fallback pricing option,2026-10-19,by Monday,I will prepare a fallback pricing option. Action item: Noah will prepare the fallback pricing option by Monday.
+meeting-01,Weekly Product Sync,2026-10-12,Mia,Mia,draft the onboarding checklist,2026-10-15,by Thursday,I will draft the new onboarding checklist. Action item: Mia will draft the onboarding checklist by Thursday.
+meeting-02,Client Onboarding Call,2026-10-14,Emma,Emma,send the onboarding checklist,2026-10-15,by tomorrow,I will send the onboarding checklist today. Action item: Emma will send the onboarding checklist by tomorrow.
+meeting-02,Client Onboarding Call,2026-10-14,Liam,Liam,schedule the kickoff,2026-10-28,for October 28,I will schedule the kickoff. Action item: Liam will schedule the kickoff for October 28.
+meeting-02,Client Onboarding Call,2026-10-14,Emma,Emma,prepare the training video,2026-10-21,by next Wednesday,I will prepare a short training video. Action item: Emma will prepare the training video by next Wednesday.
+meeting-02,Client Onboarding Call,2026-10-14,Lucas,Lucas,clean the sample data,2026-10-19,by Monday,I will clean the sample data before the kickoff. Action item: Lucas will clean the sample data by Monday.
+meeting-03,Operations Review,2026-10-16,Ava,Ava,review the exception log,2026-10-22,by Thursday,I reviewed the exception log. Most errors come from missing PO numbers and duplicate invoices. Action item: Ava will review the exception log by Thursday.
+meeting-03,Operations Review,2026-10-16,Noah,Noah,prepare the weekly dashboard,2026-10-19,by Monday,I will prepare the weekly dashboard. Action item: Noah will prepare the weekly dashboard by Monday.
+meeting-03,Operations Review,2026-10-16,Ava,Ava,ask finance for approval,2026-10-21,by Wednesday,I will ask finance for approval. Action item: Ava will ask finance for approval by Wednesday.
+meeting-03,Operations Review,2026-10-16,Mia,Mia,update the operations guide,2026-10-23,by Friday,I will update the operations guide. Action item: Mia will update the operations guide by Friday.

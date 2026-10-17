@@ -1,0 +1,39 @@
+1
+00:00:06,510 --> 00:00:16,530
+[Liam] Welcome. The client wants to start with the US region and add Europe later. Key point: the initial rollout will cover the US only.
+[Liam] 欢迎。客户希望先在美国区域开始，之后再扩展到欧洲。关键点：初始上线只覆盖美国。
+
+2
+00:00:18,780 --> 00:00:26,100
+[Emma] I will send the onboarding checklist today. Action item: Emma will send the onboarding checklist by tomorrow.
+[Emma] 我今天会发送入驻检查清单。行动项：Emma 将在明天前发送入驻检查清单。
+
+3
+00:00:28,620 --> 00:00:35,730
+[Lucas] The client's data export has three missing fields. Risk: the missing fields may delay the import.
+[Lucas] 客户的数据导出缺少三个字段。风险：缺失字段可能会延迟导入。
+
+4
+00:00:38,010 --> 00:00:42,720
+[Ava] Decision: we will start with a pilot of two teams instead of the full company.
+[Ava] 决定：我们将先以两个团队进行试点，而不是全公司上线。
+
+5
+00:00:45,120 --> 00:00:54,240
+[Liam] I will schedule the kickoff. Action item: Liam will schedule the kickoff for October 28.
+[Liam] 我会安排启动会。行动项：Liam 将在 10 月 28 日安排启动会。
+
+6
+00:00:54,390 --> 00:01:01,620
+[Emma] I will prepare a short training video. Action item: Emma will prepare the training video by next Wednesday.
+[Emma] 我会准备一个简短的培训视频。行动项：Emma 将在下周三前准备培训视频。
+
+7
+00:01:04,110 --> 00:01:11,430
+[Lucas] I will clean the sample data before the kickoff. Action item: Lucas will clean the sample data by Monday.
+[Lucas] 我会在启动会前清理示例数据。行动项：Lucas 将在周一前清理示例数据。
+
+8
+00:01:13,680 --> 00:01:17,970
+[Ava] Good. We will confirm the pilot scope in the kickoff call.
+[Ava] 很好。我们将在启动会上确认试点范围。

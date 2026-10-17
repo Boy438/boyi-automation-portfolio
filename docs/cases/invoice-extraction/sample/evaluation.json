@@ -1,0 +1,12 @@
+{
+  "text_pdf_count": 46,
+  "scanned_pdf_count": 2,
+  "header_fields_checked": 506,
+  "header_fields_correct": 506,
+  "header_accuracy_pct": 100.0,
+  "line_item_fields_checked": 548,
+  "line_item_fields_correct": 548,
+  "line_item_accuracy_pct": 100.0,
+  "header_mismatches": [],
+  "line_item_mismatches": []
+}

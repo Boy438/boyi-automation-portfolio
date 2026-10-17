@@ -1,0 +1,31 @@
+1
+00:00:06,510 --> 00:00:16,530
+[Liam] Welcome. The client wants to start with the US region and add Europe later. Key point: the initial rollout will cover the US only.
+
+2
+00:00:18,780 --> 00:00:26,100
+[Emma] I will send the onboarding checklist today. Action item: Emma will send the onboarding checklist by tomorrow.
+
+3
+00:00:28,620 --> 00:00:35,730
+[Lucas] The client's data export has three missing fields. Risk: the missing fields may delay the import.
+
+4
+00:00:38,010 --> 00:00:42,720
+[Ava] Decision: we will start with a pilot of two teams instead of the full company.
+
+5
+00:00:45,120 --> 00:00:54,240
+[Liam] I will schedule the kickoff. Action item: Liam will schedule the kickoff for October 28.
+
+6
+00:00:54,390 --> 00:01:01,620
+[Emma] I will prepare a short training video. Action item: Emma will prepare the training video by next Wednesday.
+
+7
+00:01:04,110 --> 00:01:11,430
+[Lucas] I will clean the sample data before the kickoff. Action item: Lucas will clean the sample data by Monday.
+
+8
+00:01:13,680 --> 00:01:17,970
+[Ava] Good. We will confirm the pilot scope in the kickoff call.

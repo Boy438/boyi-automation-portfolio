@@ -1,0 +1,151 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meeting Audio -&gt; Notes, Actions &amp; SRT</title><style>
+:root{--navy:#0B1220;--lime:#B7F34A;--warm:#F6F3EA;--coral:#FF6B5E;--muted:#5C677D;--line:#DDE2EA;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--warm);color:var(--navy);font-family:'Segoe UI',Arial,sans-serif;line-height:1.5}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}.hero{background:var(--navy);color:#fff;padding:58px 0 46px;position:relative;overflow:hidden}.hero:after{content:'';position:absolute;right:-120px;top:-120px;width:430px;height:430px;border:1px solid rgba(183,243,74,.25);border-radius:50%;box-shadow:0 0 0 44px rgba(183,243,74,.04),0 0 0 88px rgba(183,243,74,.03)}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(183,243,74,.13);border:1px solid rgba(183,243,74,.35);color:var(--lime);border-radius:999px;padding:7px 12px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--lime);display:inline-block}
+.hero h1{font-size:clamp(38px,5.6vw,72px);line-height:1.02;letter-spacing:-.045em;margin:22px 0 16px;max-width:980px}.hero h1 em{font-style:normal;color:var(--lime)}.hero p{font-size:19px;color:#C8D0DD;max-width:840px;margin:0 0 28px}
+.metric-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:32px}.metric{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.11);border-radius:16px;padding:18px 20px}.metric b{display:block;font-size:30px;line-height:1.1;color:var(--lime);letter-spacing:-.03em}.metric span{display:block;color:#AAB5C4;font-size:12px;text-transform:uppercase;letter-spacing:.08em;margin-top:6px}
+section{padding:64px 0}section.tight{padding:36px 0}.kicker{font-size:12px;font-weight:800;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}h2{font-size:clamp(28px,3.2vw,44px);line-height:1.1;letter-spacing:-.035em;margin:0 0 14px}.lead{font-size:18px;color:#435066;max-width:840px;margin:0 0 28px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:0 10px 30px rgba(11,18,32,.04)}.card h3{font-size:18px;margin:0 0 8px}.card p{margin:0;color:#4B586D;font-size:14px}.icon{width:38px;height:38px;border-radius:11px;background:var(--lime);display:flex;align-items:center;justify-content:center;font-weight:900;margin-bottom:14px;color:var(--navy)}
+.demo-shell{background:var(--navy);border-radius:22px;padding:24px;color:#fff;box-shadow:0 24px 60px rgba(11,18,32,.18)}.demo-top{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:18px}.demo-title{font-size:20px;font-weight:800}.demo-sub{font-size:13px;color:#AAB5C4}
+button{font:inherit;border:0;border-radius:10px;padding:12px 18px;font-weight:800;cursor:pointer;transition:.18s ease}button:hover{transform:translateY(-1px);filter:brightness(1.03)}button:disabled{opacity:.55;cursor:wait;transform:none}.btn-primary{background:var(--lime);color:var(--navy)}.btn-ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.2)}.btn-dark{background:var(--navy);color:#fff}
+.progress{height:8px;background:rgba(255,255,255,.1);border-radius:999px;overflow:hidden;margin:8px 0 4px}.progress i{display:block;height:100%;width:0;background:var(--lime);transition:width .35s ease}.status{font-size:12px;color:#AAB5C4;min-height:18px}
+.demo-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:18px;margin-top:18px}.panel{background:#111C2D;border:1px solid rgba(255,255,255,.09);border-radius:14px;padding:14px;min-width:0}.panel h4{margin:0 0 10px;font-size:13px;color:#C8D0DD;text-transform:uppercase;letter-spacing:.08em}
+.wave{background:#0B1220;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}.wave img{display:block;width:100%;height:auto}.audio-note{font-size:11px;color:#AAB5C4;margin-top:8px}audio{width:100%;margin-top:8px;filter:invert(.9) hue-rotate(20deg)}
+.table-wrap{overflow:auto;border-radius:10px;border:1px solid rgba(255,255,255,.09)}table{width:100%;border-collapse:collapse;font-size:10px;white-space:nowrap}th{background:#18263A;color:#AAB5C4;text-align:left;font-weight:700;padding:7px 6px;position:sticky;top:0}td{padding:7px 6px;border-top:1px solid rgba(255,255,255,.07);color:#E6EAF0}.bad{color:#FF978E;font-weight:700}.good{color:var(--lime);font-weight:700}.after{opacity:.3;transform:translateY(6px);transition:.4s ease}.after.ready{opacity:1;transform:none}
+.summary-pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.pill{background:rgba(183,243,74,.1);border:1px solid rgba(183,243,74,.25);color:var(--lime);border-radius:999px;padding:6px 10px;font-size:11px;font-weight:700}.download-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;counter-reset:step}.step{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;position:relative}.step:before{counter-increment:step;content:counter(step);position:absolute;right:16px;top:14px;font-size:28px;font-weight:900;color:#E5E9EF}.step h3{font-size:16px;margin:0 0 8px;max-width:80%}.step p{font-size:13px;color:#4B586D;margin:0}
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;align-items:start}.chart{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 10px 30px rgba(11,18,32,.04)}.checklist{list-style:none;padding:0;margin:0;display:grid;gap:10px}.checklist li{display:flex;gap:10px;align-items:flex-start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px}.checklist b{color:var(--navy)}.checklist span{color:var(--muted)}.check{width:20px;height:20px;border-radius:50%;background:var(--lime);display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;flex:none}
+.deliverables{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.deliverable{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}.deliverable b{display:block;margin-bottom:6px}.deliverable span{font-size:13px;color:var(--muted)}.cta{background:var(--lime);border-radius:22px;padding:30px;display:flex;justify-content:space-between;gap:24px;align-items:center}.cta h2{margin:0 0 6px}.cta p{margin:0;color:#35421F;max-width:760px}.footer{padding:24px 0 46px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);margin-top:24px}.small-note{font-size:12px;color:var(--muted)}
+@media(max-width:860px){.metric-row,.grid3,.steps,.deliverables{grid-template-columns:1fr 1fr}.split,.demo-grid{grid-template-columns:1fr}.cta{display:block}.cta button{margin-top:16px}}@media(max-width:560px){.metric-row,.grid3,.steps,.deliverables{grid-template-columns:1fr}.wrap{padding:0 18px}}
+@media print{body{background:#fff}.hero{background:#0B1220 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}.no-print{display:none !important}section{padding:28px 0}.card,.chart,.step,.deliverable{box-shadow:none;break-inside:avoid}.hero:after{display:none}}
+</style></head><body>
+<div id="top"></div>
+<div class="hero"><div class="wrap">
+  <span class="badge"><span class="dot"></span> Independent demo · synthetic audio</span>
+  <h1>Meeting audio.<br><em>Notes, actions, and SRT.</em></h1>
+  <p>A transcript-first workflow that transcribes a meeting, applies human correction, extracts decisions and action items with owners and due dates, and packages English, Chinese, and bilingual subtitles.</p>
+  <div class="metric-row">
+    <div class="metric"><b>3</b><span>meetings</span></div>
+    <div class="metric"><b>4:21</b><span>audio duration</span></div>
+    <div class="metric"><b>13</b><span>action items</span></div>
+    <div class="metric"><b>25</b><span>captions</span></div>
+  </div>
+</div></div>
+
+<section><div class="wrap">
+  <p class="kicker">The problem</p>
+  <h2>Raw ASR is useful, but not ready to send.</h2>
+  <p class="lead">The synthetic meeting audio is clear, yet the small ASR model still makes mistakes with names, numbers, and similar-sounding words. The final notes use a human-corrected transcript, so owners and deadlines are not guessed from garbled text.</p>
+  <div class="grid3">
+    <div class="card"><div class="icon">1</div><h3>Transcribe</h3><p>Vosk produces a timestamped raw transcript. This demo measures word error rate against the synthetic ground truth.</p></div>
+    <div class="card"><div class="icon">2</div><h3>Extract</h3><p>Rules pull out key points, decisions, risks, owners, tasks, and deadlines from the corrected transcript.</p></div>
+    <div class="card"><div class="icon">3</div><h3>Package</h3><p>Markdown notes, action-item CSV, Excel workbook, and English / Chinese / bilingual SRT.</p></div>
+  </div>
+</div></section>
+
+<section class="tight"><div class="wrap"><div class="demo-shell">
+  <div class="demo-top"><div><div class="demo-title">Interactive proof</div><div class="demo-sub">Click run to move from raw ASR to a reviewed action list and subtitles.</div></div><button id="runBtn" class="btn-primary">Run pipeline</button></div>
+  <div class="progress"><i id="bar"></i></div><div class="status" id="status">Ready. Play the synthetic meeting audio or inspect the raw ASR below.</div>
+  <div class="demo-grid">
+    <div class="panel"><h4>Input · meeting audio</h4><div class="wave"><img src="assets/meeting-waveform.png" alt="Meeting audio waveform"></div><audio controls src="assets/meeting-01.mp3"></audio><div class="audio-note">Weekly Product Sync · 102.6 seconds · synthetic audio</div><div class="table-wrap" style="margin-top:12px"><table><thead><tr><th>Raw ASR snippet</th></tr></thead><tbody><tr><td class="bad" style="white-space:normal">weekly products sink october twelfth twenty twenty six saver good morning let&#x27;s review the launch plan key point the beta launch is still on track for october thirtieth but the payment integration is blocked by the vendor noah i checked the pricing sheet yesterday the annual plan is missing to regional prices action item know i will update the pricing she&#x27;d by wednesday mia i spoke with three beta customers they want a simpler on boarding flow key point on boarding is the top usability concern liam the revised launch deck is ready for review action item liam will send the revised launch deck by friday emma i can book the customer interview ac</td></tr></tbody></table></div></div>
+    <div class="panel after" id="afterPanel"><h4>Output · reviewed notes</h4><div class="table-wrap"><table><thead><tr><th>Owner</th><th>Task</th><th>Due</th></tr></thead><tbody><tr><td>Noah</td><td>update the pricing sheet</td><td class='good'>2026-10-14</td></tr><tr><td>Liam</td><td>send the revised launch deck</td><td class='good'>2026-10-16</td></tr><tr><td>Emma</td><td>book the customer interview</td><td class='good'>2026-10-20</td></tr><tr><td>Noah</td><td>prepare the fallback pricing option</td><td class='good'>2026-10-19</td></tr><tr><td>Mia</td><td>draft the onboarding checklist</td><td class='good'>2026-10-15</td></tr><tr><td>Emma</td><td>send the onboarding checklist</td><td class='good'>2026-10-15</td></tr><tr><td>Liam</td><td>schedule the kickoff</td><td class='good'>2026-10-28</td></tr><tr><td>Emma</td><td>prepare the training video</td><td class='good'>2026-10-21</td></tr></tbody></table></div><div class="summary-pills"><span class="pill">13 action items</span><span class="pill">3 decisions</span><span class="pill">3 risks</span><span class="pill">25 captions</span></div><div class="table-wrap" style="margin-top:10px"><table><thead><tr><th>Bilingual SRT preview</th></tr></thead><tbody><tr><td class="good" style="white-space:pre-wrap;font-family:Consolas,monospace">1
+00:00:06,210 --&gt; 00:00:17,970
+[Ava] Good morning. Let&#x27;s review the launch plan. Key point: the beta launch is still on track for October 30, but the payment integration is blocked by the vendor.
+[Ava] 早上好。我们来回顾发布计划。关键点：Beta 发布仍按计划在 10 月 30 日进行，但支付集成被供应商阻塞。
+
+2
+00:00:20,220 --&gt; 00:00:30,960
+[Noah] I checked the pricing sheet yesterday. The annual plan is missing two regional prices. Action item: Noah will update the pricing sheet by Wednesday.
+[Noah] 我昨天检查了价格表。年度计划缺少两个区域价格。行动项：Noah 将在周三前更新价格表。
+
+3
+00:00:33,210 --&gt; 00:00:42,750
+[Mia] I spoke with three beta customers. They want a simpler onboarding flow. Key point: onboarding is the top usability concern.
+[Mia] 我和三位 Beta 客户沟通过了。他们希望有更简单的入驻流程。关键点：入驻流程是最大的可用性问题。
+
+4
+00:00:45,180 --&gt; 00:00:52,680
+[Liam] The revised launch deck is ready for review. Action item: Liam will send the revised launch deck by Friday.
+[Liam] 修订后的发布演示文稿已经可以审阅。行动项：Liam 将在周五前发送修订后的发布演示文稿。
+
+5
+00:00:54,960 --&gt; 00:01:01,980
+[Emma] I can book the customer interview. Action item: Emma will book the customer interview for next Tuesday.
+[Emma] 我可以预约客户访谈。行动项：Emma 将在下周二预约客户访谈。
+
+6
+00:01:04,230 --&gt; 00:01:15,390
+[Ava] Decision: we will delay the public beta by one week to finish the payment integration. Risk: the vendor may miss the new deadline, so we need a fallback plan.
+[Ava] 决定：我们将公开 Beta 推迟一周，以完成支付集成。风险：供应商可能错过新的截止日期，所以我们需要一个备用方案。
+
+7
+00:01:17,670 --&gt; 00:01:25,470
+[Noah] I will prepare a fallback pricing option. Action item: Noah will prepare the fallback pricing option by Monday.
+[Noah] 我会准备一个备用定价方案。行动项：Noah 将在周一前准备备用定价方案。
+
+8
+00:01:27,720 --&gt; 00:01:35,130
+[Mia] I will draft the new onboarding checklist. Action item: Mia will draft the onboarding checklist by Thursday.
+[Mia] 我会起草新的入驻检查清单。行动项：Mia 将在周四前起草入驻检查清单。
+
+9
+00:01:37,380 --&gt; 00:01:41,760
+[Ava] Great. We wi</td></tr></tbody></table></div></div>
+  </div>
+  <div class="download-row"><button id="dlActions" class="btn-ghost">Download action items CSV</button><button id="dlNotes" class="btn-ghost">Download meeting notes MD</button><button id="dlExcel" class="btn-ghost">Download Excel workbook</button></div>
+</div></div></section>
+
+<section><div class="wrap">
+  <p class="kicker">What was built</p><h2>A transcript-first workflow with a visible correction step.</h2>
+  <div class="steps">
+    <div class="step"><h3>ASR</h3><p>Vosk transcribes the WAV and returns word timings.</p></div>
+    <div class="step"><h3>Correct</h3><p>A human-reviewed transcript fixes names and numbers.</p></div>
+    <div class="step"><h3>Extract</h3><p>Rules find key points, decisions, risks, and action items.</p></div>
+    <div class="step"><h3>Package</h3><p>Notes, CSV, Excel, and three SRT variants.</p></div>
+  </div>
+</div></section>
+
+<section><div class="wrap"><div class="split">
+  <div><p class="kicker">Validation</p><h2>Show the raw error. Then show the fix.</h2><p class="lead">The demo does not claim perfect ASR. It reports the raw word error rate and uses a human-corrected transcript for the final notes, which is the safer production pattern.</p>
+    <ul class="checklist">
+      <li><span class="check">✓</span><div><b>6/6 automated tests passed</b><br><span>Due-date parsing, action extraction, decision/risk counts, and SRT generation.</span></div></li>
+      <li><span class="check">✓</span><div><b>19.5% average raw ASR WER</b><br><span>Measured on 3 synthetic meetings against ground-truth transcripts.</span></div></li>
+      <li><span class="check">✓</span><div><b>13 action items with owners and due dates</b><br><span>Every action item links back to the source sentence.</span></div></li>
+      <li><span class="check">✓</span><div><b>25 captions across 3 SRT variants</b><br><span>English, Chinese, and bilingual subtitles with aligned timings.</span></div></li>
+    </ul>
+  </div>
+  <div class="chart"><div class="table-wrap"><table><thead><tr><th>Meeting</th><th>Duration</th><th>WER</th><th>Actions</th></tr></thead><tbody><tr><td>Weekly Product Sync</td><td>102.6s</td><td>20.2%</td><td>5</td></tr><tr><td>Client Onboarding Call</td><td>78.8s</td><td>20.7%</td><td>4</td></tr><tr><td>Operations Review</td><td>80.5s</td><td>17.6%</td><td>4</td></tr></tbody></table></div><p class="small-note" style="margin-top:12px">Raw ASR WER is expected for a small offline model. The final notes come from the human-corrected transcript.</p></div>
+</div></div></section>
+
+<section><div class="wrap">
+  <p class="kicker">Result</p><h2>What the client actually receives.</h2>
+  <div class="deliverables">
+    <div class="deliverable"><b>Meeting notes</b><span>Summary, key points, decisions, risks, and action items.</span></div>
+    <div class="deliverable"><b>Action-item CSV</b><span>Owner, task, due date, due phrase, source sentence.</span></div>
+    <div class="deliverable"><b>Excel workbook</b><span>Dashboard, meetings, actions, decisions, risks, key points, transcript segments.</span></div>
+    <div class="deliverable"><b>Bilingual SRT</b><span>English, Chinese, and bilingual subtitle files.</span></div>
+    <div class="deliverable"><b>Repeatable script</b><span>One command reruns the next batch.</span></div>
+    <div class="deliverable"><b>Sample audio</b><span>Synthetic MP3 and transcript files for review.</span></div>
+  </div>
+</div></section>
+
+<section><div class="wrap"><div class="cta"><div><h2>Need this for your meetings?</h2><p>Send one sample recording and the output format you need. I will confirm fit, scope, and a fixed price before work starts.</p></div><button class="btn-dark" onclick="window.location.href='#top'">Back to top</button></div></div></section>
+<div class="wrap"><div class="footer">Independent demo built with Python 3.15, Vosk, and openpyxl. Synthetic audio only. No client names, logos, testimonials, or revenue claims. Human-corrected transcript used for final notes.</div></div>
+<script>
+const btn = document.getElementById('runBtn');
+const bar = document.getElementById('bar');
+const status = document.getElementById('status');
+const after = document.getElementById('afterPanel');
+const steps = [[18,'Transcribing meeting audio...'],[40,'Aligning timestamps and captions...'],[64,'Extracting actions, decisions, and risks...'],[84,'Writing notes and SRT files...'],[100,'Done: 3 meetings, 13 action items, 25 captions.']];
+btn.addEventListener('click', () => {
+  btn.disabled = true; after.classList.remove('ready'); bar.style.width='0%';
+  let i=0; const tick=()=>{ if(i>=steps.length){btn.disabled=false; btn.textContent='Run again'; after.classList.add('ready'); return;}
+    const [p,s]=steps[i++]; bar.style.width=p+'%'; status.textContent=s; setTimeout(tick, 420); };
+  tick();
+});
+document.getElementById('dlActions').addEventListener('click', ()=>{ window.location.href='sample/action_items.csv'; });
+document.getElementById('dlNotes').addEventListener('click', ()=>{ window.location.href='sample/notes/meeting-01.md'; });
+document.getElementById('dlExcel').addEventListener('click', ()=>{ window.location.href='sample/meeting_notes_report.xlsx'; });
+</script>
+</body></html>

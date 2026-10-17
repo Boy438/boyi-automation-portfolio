@@ -1,0 +1,39 @@
+1
+00:00:06,480 --> 00:00:14,250
+[Lucas] The weekly report still takes four hours to prepare. Key point: the manual cleanup is the biggest bottleneck.
+[Lucas] 周报仍然需要四个小时来准备。关键点：手工清理是最大的瓶颈。
+
+2
+00:00:16,560 --> 00:00:27,810
+[Ava] I reviewed the exception log. Most errors come from missing PO numbers and duplicate invoices. Action item: Ava will review the exception log by Thursday.
+[Ava] 我审阅了异常日志。大多数错误来自缺少采购订单号和重复发票。行动项：Ava 将在周四前审阅异常日志。
+
+3
+00:00:30,060 --> 00:00:36,930
+[Noah] I will prepare the weekly dashboard. Action item: Noah will prepare the weekly dashboard by Monday.
+[Noah] 我会准备周报仪表盘。行动项：Noah 将在周一前准备周报仪表盘。
+
+4
+00:00:39,180 --> 00:00:46,800
+[Mia] The new invoice template is ready. Decision: we will move the invoice process to the new template starting next month.
+[Mia] 新的发票模板已经准备好了。决定：我们将从下个月开始把发票流程迁移到新模板。
+
+5
+00:00:49,350 --> 00:00:53,370
+[Lucas] Risk: the finance team has not approved the new template yet.
+[Lucas] 风险：财务团队还没有批准新模板。
+
+6
+00:00:55,680 --> 00:01:02,580
+[Ava] I will ask finance for approval. Action item: Ava will ask finance for approval by Wednesday.
+[Ava] 我会向财务申请批准。行动项：Ava 将在周三前向财务申请批准。
+
+7
+00:01:04,830 --> 00:01:11,940
+[Mia] I will update the operations guide. Action item: Mia will update the operations guide by Friday.
+[Mia] 我会更新运营指南。行动项：Mia 将在周五前更新运营指南。
+
+8
+00:01:14,460 --> 00:01:19,740
+[Lucas] Good. We will review the first month of results in the next operations review.
+[Lucas] 很好。我们将在下一次运营回顾会上审阅第一个月的结果。

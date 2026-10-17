@@ -1,0 +1,13 @@
+order_id,order_date,customer_id,sku,quantity,unit_price,discount_pct,status,region,sales_rep,notes
+ORD-10001,2026-09-22,C158,SKU-1037,2,142.41,0.00,paid,APAC,Emma,
+ORD-10002,2026-07-08,C096,SKU-1017,4,24.44,0.08,paid,APAC,Liam,repeat buyer
+ORD-10003,2026-09-17,C094,SKU-1002,2,37.21,0.08,paid,APAC,Mia,repeat buyer
+ORD-10004,2026-08-09,C100,SKU-1015,3,46.81,0.00,refunded,North America,Noah,manual review
+ORD-10005,2026-05-17,C099,SKU-1005,1,95.17,0.00,pending,North America,Lucas,repeat buyer
+ORD-10006,2026-04-22,C148,SKU-1005,5,90.68,0.20,refunded,LATAM,Mia,repeat buyer
+ORD-10007,not-a-date,C028,SKU-1001,2,49.29,0.00,cancelled,latam,Lucas,manual review
+ORD-10008,2026-06-24,C137,SKU-1006,1,36.03,0.00,paid,LATAM,Emma,manual review
+ORD-10009,2026-05-06,C077,SKU-1021,5,19.28,0.00,CANCELLED,LATAM,Liam,
+ORD-10010,2026-04-24,C034,SKU-1003,1,58.20,0.20,paid,Europe,Noah,manual review
+ORD-10011,2026-05-22,C067,sku-1026,1,55.85,0.05,refunded,North America,Mia,gift wrap
+ORD-10012,2026-08-06,C014,SKU-1007,1,77.29,0.00,refunded,Europe,Emma,manual review

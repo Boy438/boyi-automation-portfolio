@@ -1,0 +1,4 @@
+meeting_id,meeting_title,meeting_date,risk,source_sentence
+meeting-01,Weekly Product Sync,2026-10-12,"the vendor may miss the new deadline, so we need a fallback plan.","Decision: we will delay the public beta by one week to finish the payment integration. Risk: the vendor may miss the new deadline, so we need a fallback plan."
+meeting-02,Client Onboarding Call,2026-10-14,the missing fields may delay the import.,The client's data export has three missing fields. Risk: the missing fields may delay the import.
+meeting-03,Operations Review,2026-10-16,the finance team has not approved the new template yet.,Risk: the finance team has not approved the new template yet.

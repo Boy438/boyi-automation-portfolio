@@ -1,0 +1,5 @@
+meeting_id,meeting_title,meeting_date,key_point,source_sentence
+meeting-01,Weekly Product Sync,2026-10-12,"the beta launch is still on track for October 30, but the payment integration is blocked by the vendor.","Good morning. Let's review the launch plan. Key point: the beta launch is still on track for October 30, but the payment integration is blocked by the vendor."
+meeting-01,Weekly Product Sync,2026-10-12,onboarding is the top usability concern.,I spoke with three beta customers. They want a simpler onboarding flow. Key point: onboarding is the top usability concern.
+meeting-02,Client Onboarding Call,2026-10-14,the initial rollout will cover the US only.,Welcome. The client wants to start with the US region and add Europe later. Key point: the initial rollout will cover the US only.
+meeting-03,Operations Review,2026-10-16,the manual cleanup is the biggest bottleneck.,The weekly report still takes four hours to prepare. Key point: the manual cleanup is the biggest bottleneck.
