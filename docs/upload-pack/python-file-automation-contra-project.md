@@ -34,7 +34,7 @@ Send me one representative folder and the naming rule you want. I will confirm f
 | Quarantined | 4 |
 | Ignored system/template files | 3 |
 | Automated tests | 10 / 10 passed |
-| Demo runtime | ~0.03s |
+| Demo runtime | ~0.06s |
 
 ## Deliverables
 
